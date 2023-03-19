@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "emailjs": "^4.0.1",
+    "lightgallery": "^2.7.1",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-slideshow-image": "^4.2.1"
+  },
+  "name": "nextjs-blog",
+  "description": "This is a starter template for [Learn Next.js](https://nextjs.org/learn).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
