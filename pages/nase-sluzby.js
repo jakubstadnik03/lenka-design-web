@@ -1,7 +1,7 @@
 import Footer from "./components/footer";
 import Header from "./components/header";
 import SluzbyNav from "./components/sluzbyNav";
-import ImageGallery from "./components/galleryImg";
+import ImageGallery from "./components/sluzbyImg";
 import sluzbyData from "./data/sluzbyData.json";
 import Head from "next/head";
 

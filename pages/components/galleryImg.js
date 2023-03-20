@@ -12,17 +12,11 @@ export default function ImageGallery(props) {
         <h2 id={props.id} className="sluzba-title">
           {props.title}
         </h2>
-        <p>{props.text}</p>
       </div>
       <LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
-        {props.render.map((item, index) => (
+        {props.render?.map((item, index) => (
           <a href={item.image} key={index}>
-            <img
-              alt={props.title}
-              src={item.thumbnail}
-              className="gallery-img"
-              loading="lazy"
-            />
+            <img src={item.thumbnail} className="gallery-img" loading="lazy" />
           </a>
         ))}
       </LightGallery>
