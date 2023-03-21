@@ -71,22 +71,22 @@ export default function Home() {
             <SluzbyNav
               img="img/sluzby/navrhy_bytovych_interieru_small.jpg"
               title="Návrhy bytových interiérů"
-              link="BytInterier"
+              link="bytovy-interier"
             />
             <SluzbyNav
               img="img/sluzby/navrhy_komercnich_interieru_small.jpg"
               title="Návrh komerčních interiérů"
-              link="KomercniInterier"
+              link="komercni-interier"
             />
             <SluzbyNav
               img="img/sluzby/homestaging_small.jpg"
               title="Homestaging"
-              link="Homestaging"
+              link="homestaging"
             />
             <SluzbyNav
               img="img/sluzby/konzultace_small.jpg"
               title="Konzultace"
-              link="Konzultace"
+              link="konzultace"
             />
           </div>
         </section>
