@@ -32,27 +32,27 @@ export default function naseSluzby() {
           <SluzbyNav
             img="svg/3d-design.svg"
             title="3D návrhy interiérů ikona"
-            link="3d-navrhy-interieru"
+            link="#3d-navrhy-interieru"
           />
           <SluzbyNav
             img="svg/2d-navrh.svg"
             title="2D návrhy dispozic"
-            link="2d-navrhy-interieru"
+            link="#2d-navrhy-interieru"
           />
           <SluzbyNav
             img="svg/realizace.svg"
             title="Realizace"
-            link="realizace"
+            link="#realizace"
           />
           <SluzbyNav
             img="svg/konzultace.svg"
             title="Konzultace"
-            link="konzultace"
+            link="#konzultace"
           />
           <SluzbyNav
             img="svg/home-staging.svg"
             title="Homestaging"
-            link="homestaging"
+            link="#homestaging"
           />
         </div>
         <ImageGallery

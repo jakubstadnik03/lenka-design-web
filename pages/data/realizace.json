@@ -1,18 +1,18 @@
 
 {
     "nav":[
-        {"link": "komercni_projekty", "text": "Komerční projekty", "img": "img/realizace/main/komercni_projekty_small_main.jpeg"},
-        {"link": "maly_byt", "text": "Malý byt", "img": "img/realizace/main/maly_byt_small_main.jpeg"},
-        {"link": "cely_dum", "text": "Celý dům", "img": "img/realizace/main/cely_dum_small_main.jpeg"},
-        {"link": "homestaging", "text": "Homestaging", "img": "img/realizace/main/homestaging_small_main.jpeg"},
-        {"link": "kuchyne", "text": "Kuchyně", "img": "img/realizace/main/kuchyne_small_main.jpeg"},
-        {"link": "obyvaci_pokoje", "text": "Obývací pokoje", "img": "img/realizace/main/obyvaci_pokoje_small_main.jpeg"},
-        {"link": "detske_pokoje", "text": "Dětské pokoje", "img": "img/realizace/main/detske_pokoje_small_main.jpeg"},
-        {"link": "loznice", "text": "Ložnice", "img": "img/realizace/main/loznice_small_main.jpeg"},
-        {"link": "koupelny", "text": "Koupelny", "img": "img/realizace/main/koupelny_small_main.jpeg"},
-        {"link": "wellness", "text": "Wellness", "img": "img/realizace/main/wellness_small_main.jpeg"},
-        {"link": "chodby", "text": "Chodby", "img": "img/realizace/main/chodby_small_main.jpeg"},
-        {"link": "nabytek_na_miru", "text": "Nábytek na míru", "img": "img/realizace/main/nabytek_na_miru_small_main.jpeg"}
+        {"link": "#komercni_projekty", "text": "Komerční projekty", "img": "img/realizace/main/komercni_projekty_small_main.jpeg"},
+        {"link": "#maly_byt", "text": "Malý byt", "img": "img/realizace/main/maly_byt_small_main.jpeg"},
+        {"link": "#cely_dum", "text": "Celý dům", "img": "img/realizace/main/cely_dum_small_main.jpeg"},
+        {"link": "#homestaging", "text": "Homestaging", "img": "img/realizace/main/homestaging_small_main.jpeg"},
+        {"link": "#kuchyne", "text": "Kuchyně", "img": "img/realizace/main/kuchyne_small_main.jpeg"},
+        {"link": "#obyvaci_pokoje", "text": "Obývací pokoje", "img": "img/realizace/main/obyvaci_pokoje_small_main.jpeg"},
+        {"link": "#detske_pokoje", "text": "Dětské pokoje", "img": "img/realizace/main/detske_pokoje_small_main.jpeg"},
+        {"link": "#loznice", "text": "Ložnice", "img": "img/realizace/main/loznice_small_main.jpeg"},
+        {"link": "#koupelny", "text": "Koupelny", "img": "img/realizace/main/koupelny_small_main.jpeg"},
+        {"link": "#wellness", "text": "Wellness", "img": "img/realizace/main/wellness_small_main.jpeg"},
+        {"link": "#chodby", "text": "Chodby", "img": "img/realizace/main/chodby_small_main.jpeg"},
+        {"link": "#nabytek_na_miru", "text": "Nábytek na míru", "img": "img/realizace/main/nabytek_na_miru_small_main.jpeg"}
     ],
     "komercniProjekty":[
       { "thumbnail":"img/realizace/komercni_projekty/komercni_projekty_small1.jpeg", "image":"img/realizace/komercni_projekty/komercni_projekty_large1.jpeg" },
