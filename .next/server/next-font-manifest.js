@@ -1,8 +1,1 @@
-self.__NEXT_FONT_MANIFEST={
-  "pages": {
-    "/webove-stranky": []
-  },
-  "app": {},
-  "appUsingSizeAdjust": false,
-  "pagesUsingSizeAdjust": false
-}
+self.__NEXT_FONT_MANIFEST={pages:{"/realizace":[],"/nase-sluzby":[],"/webove-stranky":[],"/vizualizace":[]},app:{},appUsingSizeAdjust:!1,pagesUsingSizeAdjust:!1};

@@ -1,75 +1,286 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/kontakt";
-exports.ids = ["pages/kontakt"];
+exports.id = 510;
+exports.ids = [510];
 exports.modules = {
 
-/***/ "./components/form.js":
-/*!****************************!*\
-  !*** ./components/form.js ***!
-  \****************************/
+/***/ 2292:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ContactForm)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _emailjs_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emailjs/browser */ \"@emailjs/browser\");\n/* harmony import */ var _emailjs_browser__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_emailjs_browser__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction ContactForm() {\n    const form = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)();\n    const sendEmail = (e)=>{\n        e.preventDefault();\n        _emailjs_browser__WEBPACK_IMPORTED_MODULE_2___default().sendForm(\"service_47m0lpw\", \"template_m58cjss\", form.current, \"na8xge_55u88BuNEA\").then((result)=>{\n            alert(\"Vaš dotaz byl \\xfaspěšně odesl\\xe1n!\");\n            document.location.href = \"/\";\n            console.log(result.text);\n        }, (error)=>{\n            console.log(error.text);\n        });\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"layout\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"contact-form\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                    ref: form,\n                    onSubmit: sendEmail,\n                    id: \"contact-form\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                    htmlFor: \"name\",\n                                    className: \"newline\",\n                                    children: \"Vaše jm\\xe9no:\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 34,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                    type: \"text\",\n                                    placeholder: \"Jm\\xe9no a př\\xedjimen\\xed\",\n                                    className: \"form-control\",\n                                    name: \"user_name\",\n                                    required: true\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 37,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                            lineNumber: 33,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                    htmlFor: \"email\",\n                                    className: \"newline\",\n                                    children: \"V\\xe1š email:\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 46,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                    type: \"email\",\n                                    placeholder: \"example@example.cz\",\n                                    className: \"form-control\",\n                                    name: \"user_email\",\n                                    required: true\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 49,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                            lineNumber: 45,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                    htmlFor: \"tel\",\n                                    className: \"newline\",\n                                    children: \"V\\xe1š Telefon:\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 58,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                    type: \"tel\",\n                                    placeholder: \"775 116 555 333\",\n                                    id: \"tel\",\n                                    className: \"form-control\",\n                                    name: \"user_phone\",\n                                    required: true\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 61,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                            lineNumber: 57,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                    htmlFor: \"message\",\n                                    className: \"newline\",\n                                    children: \"Zpr\\xe1va:\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 71,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"textarea\", {\n                                    placeholder: \"Zde se mě můžete zeptat na cokoliv a napsat, o jakou službu by jste měli z\\xe1jem\",\n                                    className: \"form-control\",\n                                    rows: \"4\",\n                                    name: \"message\",\n                                    id: \"message\",\n                                    required: true\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 74,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                            lineNumber: 70,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                className: \"mybutton\",\n                                type: \"submit\",\n                                value: \"send\",\n                                children: \"Odeslat\"\n                            }, void 0, false, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 84,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                            lineNumber: 83,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                    lineNumber: 32,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                lineNumber: 31,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"contact-info\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"b\", {\n                                    children: \"Kontakt\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 94,\n                                    columnNumber: 13\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 93,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: \" MgA. Lenka St\\xe1dn\\xedkov\\xe1\"\n                            }, void 0, false, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 96,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: \"Interi\\xe9rov\\xe1 design\\xe9rka\"\n                            }, void 0, false, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 97,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                        lineNumber: 92,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"b\", {\n                                children: \"Adresa\"\n                            }, void 0, false, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 101,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"address\", {\n                                children: \"Minkovick\\xe1 170 46312 Šimonovice, Liberec, Česk\\xe1 republika\"\n                            }, void 0, false, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 102,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                        lineNumber: 100,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"b\", {\n                                        children: \"IČO:\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                        lineNumber: 109,\n                                        columnNumber: 13\n                                    }, this),\n                                    \" 03911446\",\n                                    \" \"\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 108,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"b\", {\n                                        children: \"DIČ:\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                        lineNumber: 112,\n                                        columnNumber: 13\n                                    }, this),\n                                    \" CZ7555242563\"\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 111,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                        lineNumber: 107,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: \"Jsem pl\\xe1tcem DPH.\"\n                    }, void 0, false, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                        lineNumber: 116,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"color\",\n                                    href: \"tel:+420-723-838-086\",\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"b\", {\n                                            children: \"Telefon:\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                            lineNumber: 121,\n                                            columnNumber: 15\n                                        }, this),\n                                        \" +420 723 838 086\"\n                                    ]\n                                }, void 0, true, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 120,\n                                    columnNumber: 13\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 119,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"color\",\n                                    href: \"mailto:stadnikovi@gamil.com\",\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"b\", {\n                                            children: \" E-mail:\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                            lineNumber: 126,\n                                            columnNumber: 15\n                                        }, this),\n                                        \" stadnikovalenka@gmail.com\"\n                                    ]\n                                }, void 0, true, {\n                                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                    lineNumber: 125,\n                                    columnNumber: 13\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                                lineNumber: 124,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                        lineNumber: 118,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                lineNumber: 91,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                className: \"gdpr\",\n                children: [\n                    \"Vaše osobn\\xed \\xfadaje (e-mail, jm\\xe9no a telefon) budu zpracov\\xe1vat jen za \\xfačelem V\\xe1mi dan\\xfdm, ke kontaktov\\xe1n\\xed V\\xe1s z oblasti interi\\xe9rov\\xe9ho designu v souladu s platnou legislativou a\",\n                    \" \",\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"./gdpr.html\",\n                            children: \"z\\xe1sadami ochrany osobn\\xedch \\xfadajů\"\n                        }, void 0, false, {\n                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                            lineNumber: 137,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                        lineNumber: 136,\n                        columnNumber: 9\n                    }, this),\n                    \". Svůj souhlas se zas\\xedl\\xe1n\\xedm a zpracov\\xe1n\\xedm osobn\\xedch \\xfadajů můžete kdykoliv odvolat prostřednictv\\xedm odhlašovac\\xedho odkazu v každ\\xe9m emailu ode mě.\"\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n                lineNumber: 132,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/components/form.js\",\n        lineNumber: 30,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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cEIsV0FBVTs7b0JBQU87b0JBR2U7a0NBQ2pDLDhEQUFDcUI7a0NBQ0MsNEVBQUNGOzRCQUFFekIsTUFBSztzQ0FBYzs7Ozs7Ozs7Ozs7b0JBQ2Y7Ozs7Ozs7Ozs7Ozs7QUFNakIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL25leHRqcy1ibG9nLy4vY29tcG9uZW50cy9mb3JtLmpzP2I0MzUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlU3RhdGUsIHVzZVJlZiB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IGVtYWlsanMgZnJvbSBcIkBlbWFpbGpzL2Jyb3dzZXJcIjtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ29udGFjdEZvcm0oKSB7XG4gIGNvbnN0IGZvcm0gPSB1c2VSZWYoKTtcblxuICBjb25zdCBzZW5kRW1haWwgPSAoZSkgPT4ge1xuICAgIGUucHJldmVudERlZmF1bHQoKTtcblxuICAgIGVtYWlsanNcbiAgICAgIC5zZW5kRm9ybShcbiAgICAgICAgXCJzZXJ2aWNlXzQ3bTBscHdcIixcbiAgICAgICAgXCJ0ZW1wbGF0ZV9tNThjanNzXCIsXG4gICAgICAgIGZvcm0uY3VycmVudCxcbiAgICAgICAgXCJuYTh4Z2VfNTV1ODhCdU5FQVwiXG4gICAgICApXG4gICAgICAudGhlbihcbiAgICAgICAgKHJlc3VsdCkgPT4ge1xuICAgICAgICAgIGFsZXJ0KFwiVmHFoSBkb3RheiBieWwgw7pzcMSbxaFuxJsgb2Rlc2zDoW4hXCIpO1xuICAgICAgICAgIGRvY3VtZW50LmxvY2F0aW9uLmhyZWYgPSBcIi9cIjtcbiAgICAgICAgICBjb25zb2xlLmxvZyhyZXN1bHQudGV4dCk7XG4gICAgICAgIH0sXG4gICAgICAgIChlcnJvcikgPT4ge1xuICAgICAgICAgIGNvbnNvbGUubG9nKGVycm9yLnRleHQpO1xuICAgICAgICB9XG4gICAgICApO1xuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJsYXlvdXRcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFjdC1mb3JtXCI+XG4gICAgICAgIDxmb3JtIHJlZj17Zm9ybX0gb25TdWJtaXQ9e3NlbmRFbWFpbH0gaWQ9XCJjb250YWN0LWZvcm1cIj5cbiAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9XCJuYW1lXCIgY2xhc3NOYW1lPVwibmV3bGluZVwiPlxuICAgICAgICAgICAgICBWYcWhZSBqbcOpbm86XG4gICAgICAgICAgICA8L2xhYmVsPlxuICAgICAgICAgICAgPGlucHV0XG4gICAgICAgICAgICAgIHR5cGU9XCJ0ZXh0XCJcbiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9XCJKbcOpbm8gYSBwxZnDrWppbWVuw61cIlxuICAgICAgICAgICAgICBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIlxuICAgICAgICAgICAgICBuYW1lPVwidXNlcl9uYW1lXCJcbiAgICAgICAgICAgICAgcmVxdWlyZWRcbiAgICAgICAgICAgIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxsYWJlbCBodG1sRm9yPVwiZW1haWxcIiBjbGFzc05hbWU9XCJuZXdsaW5lXCI+XG4gICAgICAgICAgICAgIFbDocWhIGVtYWlsOlxuICAgICAgICAgICAgPC9sYWJlbD5cbiAgICAgICAgICAgIDxpbnB1dFxuICAgICAgICAgICAgICB0eXBlPVwiZW1haWxcIlxuICAgICAgICAgICAgICBwbGFjZWhvbGRlcj1cImV4YW1wbGVAZXhhbXBsZS5jelwiXG4gICAgICAgICAgICAgIGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiXG4gICAgICAgICAgICAgIG5hbWU9XCJ1c2VyX2VtYWlsXCJcbiAgICAgICAgICAgICAgcmVxdWlyZWRcbiAgICAgICAgICAgIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxsYWJlbCBodG1sRm9yPVwidGVsXCIgY2xhc3NOYW1lPVwibmV3bGluZVwiPlxuICAgICAgICAgICAgICBWw6HFoSBUZWxlZm9uOlxuICAgICAgICAgICAgPC9sYWJlbD5cbiAgICAgICAgICAgIDxpbnB1dFxuICAgICAgICAgICAgICB0eXBlPVwidGVsXCJcbiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9XCI3NzUgMTE2IDU1NSAzMzNcIlxuICAgICAgICAgICAgICBpZD1cInRlbFwiXG4gICAgICAgICAgICAgIGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiXG4gICAgICAgICAgICAgIG5hbWU9XCJ1c2VyX3Bob25lXCJcbiAgICAgICAgICAgICAgcmVxdWlyZWRcbiAgICAgICAgICAgIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxsYWJlbCBodG1sRm9yPVwibWVzc2FnZVwiIGNsYXNzTmFtZT1cIm5ld2xpbmVcIj5cbiAgICAgICAgICAgICAgWnByw6F2YTpcbiAgICAgICAgICAgIDwvbGFiZWw+XG4gICAgICAgICAgICA8dGV4dGFyZWFcbiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9XCJaZGUgc2UgbcSbIG3Fr8W+ZXRlIHplcHRhdCBuYSBjb2tvbGl2IGEgbmFwc2F0LCBvIGpha291IHNsdcW+YnUgYnkganN0ZSBtxJtsaSB6w6FqZW1cIlxuICAgICAgICAgICAgICBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIlxuICAgICAgICAgICAgICByb3dzPVwiNFwiXG4gICAgICAgICAgICAgIG5hbWU9XCJtZXNzYWdlXCJcbiAgICAgICAgICAgICAgaWQ9XCJtZXNzYWdlXCJcbiAgICAgICAgICAgICAgcmVxdWlyZWRcbiAgICAgICAgICAgIC8+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwibXlidXR0b25cIiB0eXBlPVwic3VibWl0XCIgdmFsdWU9XCJzZW5kXCI+XG4gICAgICAgICAgICAgIE9kZXNsYXRcbiAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Zvcm0+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWN0LWluZm9cIj5cbiAgICAgICAgPHVsPlxuICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgIDxiPktvbnRha3Q8L2I+XG4gICAgICAgICAgPC9saT5cbiAgICAgICAgICA8bGk+IE1nQS4gTGVua2EgU3TDoWRuw61rb3bDoTwvbGk+XG4gICAgICAgICAgPGxpPkludGVyacOpcm92w6EgZGVzaWduw6lya2E8L2xpPlxuICAgICAgICA8L3VsPlxuXG4gICAgICAgIDxkaXY+XG4gICAgICAgICAgPGI+QWRyZXNhPC9iPlxuICAgICAgICAgIDxhZGRyZXNzPlxuICAgICAgICAgICAgTWlua292aWNrw6EgMTcwIDQ2MzEyIMWgaW1vbm92aWNlLCBMaWJlcmVjLCDEjGVza8OhIHJlcHVibGlrYVxuICAgICAgICAgIDwvYWRkcmVzcz5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgPHVsPlxuICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgIDxiPknEjE86PC9iPiAwMzkxMTQ0NntcIiBcIn1cbiAgICAgICAgICA8L2xpPlxuICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgIDxiPkRJxIw6PC9iPiBDWjc1NTUyNDI1NjNcbiAgICAgICAgICA8L2xpPlxuICAgICAgICA8L3VsPlxuXG4gICAgICAgIDxkaXY+SnNlbSBwbMOhdGNlbSBEUEguPC9kaXY+XG5cbiAgICAgICAgPHVsPlxuICAgICAgICAgIDxsaT5cbiAgICAgICAgICAgIDxhIGNsYXNzTmFtZT1cImNvbG9yXCIgaHJlZj1cInRlbDorNDIwLTcyMy04MzgtMDg2XCI+XG4gICAgICAgICAgICAgIDxiPlRlbGVmb246PC9iPiArNDIwIDcyMyA4MzggMDg2XG4gICAgICAgICAgICA8L2E+XG4gICAgICAgICAgPC9saT5cbiAgICAgICAgICA8bGk+XG4gICAgICAgICAgICA8YSBjbGFzc05hbWU9XCJjb2xvclwiIGhyZWY9XCJtYWlsdG86c3RhZG5pa292aUBnYW1pbC5jb21cIj5cbiAgICAgICAgICAgICAgPGI+IEUtbWFpbDo8L2I+IHN0YWRuaWtvdmFsZW5rYUBnbWFpbC5jb21cbiAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICA8L2xpPlxuICAgICAgICA8L3VsPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxwIGNsYXNzTmFtZT1cImdkcHJcIj5cbiAgICAgICAgVmHFoWUgb3NvYm7DrSDDumRhamUgKGUtbWFpbCwgam3DqW5vIGEgdGVsZWZvbikgYnVkdSB6cHJhY292w6F2YXQgamVuIHphXG4gICAgICAgIMO6xI1lbGVtIFbDoW1pIGRhbsO9bSwga2Uga29udGFrdG92w6Fuw60gVsOhcyB6IG9ibGFzdGkgaW50ZXJpw6lyb3bDqWhvIGRlc2lnbnUgdlxuICAgICAgICBzb3VsYWR1IHMgcGxhdG5vdSBsZWdpc2xhdGl2b3UgYXtcIiBcIn1cbiAgICAgICAgPHN0cm9uZz5cbiAgICAgICAgICA8YSBocmVmPVwiLi9nZHByLmh0bWxcIj56w6FzYWRhbWkgb2NocmFueSBvc29ibsOtY2ggw7pkYWrFrzwvYT5cbiAgICAgICAgPC9zdHJvbmc+XG4gICAgICAgIC4gU3bFr2ogc291aGxhcyBzZSB6YXPDrWzDoW7DrW0gYSB6cHJhY292w6Fuw61tIG9zb2Juw61jaCDDumRhasWvIG3Fr8W+ZXRlIGtkeWtvbGl2XG4gICAgICAgIG9kdm9sYXQgcHJvc3TFmWVkbmljdHbDrW0gb2RobGHFoW92YWPDrWhvIG9ka2F6dSB2IGthxb5kw6ltIGVtYWlsdSBvZGUgbcSbLlxuICAgICAgPC9wPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl0sIm5hbWVzIjpbInVzZVN0YXRlIiwidXNlUmVmIiwiZW1haWxqcyIsIkNvbnRhY3RGb3JtIiwiZm9ybSIsInNlbmRFbWFpbCIsImUiLCJwcmV2ZW50RGVmYXVsdCIsInNlbmRGb3JtIiwiY3VycmVudCIsInRoZW4iLCJyZXN1bHQiLCJhbGVydCIsImRvY3VtZW50IiwibG9jYXRpb24iLCJocmVmIiwiY29uc29sZSIsImxvZyIsInRleHQiLCJlcnJvciIsImRpdiIsImNsYXNzTmFtZSIsInJlZiIsIm9uU3VibWl0IiwiaWQiLCJsYWJlbCIsImh0bWxGb3IiLCJpbnB1dCIsInR5cGUiLCJwbGFjZWhvbGRlciIsIm5hbWUiLCJyZXF1aXJlZCIsInRleHRhcmVhIiwicm93cyIsImJ1dHRvbiIsInZhbHVlIiwidWwiLCJsaSIsImIiLCJhZGRyZXNzIiwiYSIsInAiLCJzdHJvbmciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/form.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ kontakt)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+;// CONCATENATED MODULE: external "@emailjs/browser"
+const browser_namespaceObject = require("@emailjs/browser");
+var browser_default = /*#__PURE__*/__webpack_require__.n(browser_namespaceObject);
+;// CONCATENATED MODULE: ./components/form.js
+
+
+
+function ContactForm() {
+    const form = (0,external_react_.useRef)();
+    const sendEmail = (e)=>{
+        e.preventDefault();
+        browser_default().sendForm("service_47m0lpw", "template_m58cjss", form.current, "na8xge_55u88BuNEA").then((result)=>{
+            alert("Vaš dotaz byl \xfaspěšně odesl\xe1n!");
+            document.location.href = "/";
+            console.log(result.text);
+        }, (error)=>{
+            console.log(error.text);
+        });
+    };
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: "layout",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "contact-form",
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
+                    ref: form,
+                    onSubmit: sendEmail,
+                    id: "contact-form",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                    htmlFor: "name",
+                                    className: "newline",
+                                    children: "Vaše jm\xe9no:"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                    type: "text",
+                                    placeholder: "Jm\xe9no a př\xedjimen\xed",
+                                    className: "form-control",
+                                    name: "user_name",
+                                    required: true
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                    htmlFor: "email",
+                                    className: "newline",
+                                    children: "V\xe1š email:"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                    type: "email",
+                                    placeholder: "example@example.cz",
+                                    className: "form-control",
+                                    name: "user_email",
+                                    required: true
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                    htmlFor: "tel",
+                                    className: "newline",
+                                    children: "V\xe1š Telefon:"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                    type: "tel",
+                                    placeholder: "775 116 555 333",
+                                    id: "tel",
+                                    className: "form-control",
+                                    name: "user_phone",
+                                    required: true
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                    htmlFor: "message",
+                                    className: "newline",
+                                    children: "Zpr\xe1va:"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("textarea", {
+                                    placeholder: "Zde se mě můžete zeptat na cokoliv a napsat, o jakou službu by jste měli z\xe1jem",
+                                    className: "form-control",
+                                    rows: "4",
+                                    name: "message",
+                                    id: "message",
+                                    required: true
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: "mybutton",
+                                type: "submit",
+                                value: "send",
+                                children: "Odeslat"
+                            })
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "contact-info",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("b", {
+                                    children: "Kontakt"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: " MgA. Lenka St\xe1dn\xedkov\xe1"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: "Interi\xe9rov\xe1 design\xe9rka"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("b", {
+                                children: "Adresa"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("address", {
+                                children: "Minkovick\xe1 170 46312 Šimonovice, Liberec, Česk\xe1 republika"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("b", {
+                                        children: "IČO:"
+                                    }),
+                                    " 03911446",
+                                    " "
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("b", {
+                                        children: "DIČ:"
+                                    }),
+                                    " CZ7555242563"
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        children: "Jsem pl\xe1tcem DPH."
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                    className: "color",
+                                    href: "tel:+420-723-838-086",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("b", {
+                                            children: "Telefon:"
+                                        }),
+                                        " +420 723 838 086"
+                                    ]
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                    className: "color",
+                                    href: "mailto:stadnikovi@gamil.com",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("b", {
+                                            children: " E-mail:"
+                                        }),
+                                        " stadnikovalenka@gmail.com"
+                                    ]
+                                })
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                className: "gdpr",
+                children: [
+                    "Vaše osobn\xed \xfadaje (e-mail, jm\xe9no a telefon) budu zpracov\xe1vat jen za \xfačelem V\xe1mi dan\xfdm, ke kontaktov\xe1n\xed V\xe1s z oblasti interi\xe9rov\xe9ho designu v souladu s platnou legislativou a",
+                    " ",
+                    /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "./gdpr.html",
+                            children: "z\xe1sadami ochrany osobn\xedch \xfadajů"
+                        })
+                    }),
+                    ". Svůj souhlas se zas\xedl\xe1n\xedm a zpracov\xe1n\xedm osobn\xedch \xfadajů můžete kdykoliv odvolat prostřednictv\xedm odhlašovac\xedho odkazu v každ\xe9m emailu ode mě."
+                ]
+            })
+        ]
+    });
+}
+
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(968);
+var head_default = /*#__PURE__*/__webpack_require__.n(head_);
+;// CONCATENATED MODULE: ./pages/kontakt.js
+
+
+
+function Kontakt() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx((head_default()), {
+                children: /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                    children: "Kontakt | Lenka Design"
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
+                className: "max-width",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                        children: "Kontakt"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                            children: "Pište nebo volejte, r\xe1da V\xe1m pomohu a odpov\xedm na Vaše ot\xe1zky…."
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(ContactForm, {})
+                ]
+            })
+        ]
+    });
+}
+/* harmony default export */ const kontakt = (Kontakt);
+
 
 /***/ }),
 
-/***/ "./pages/kontakt.js":
-/*!**************************!*\
-  !*** ./pages/kontakt.js ***!
-  \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_form__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/form */ \"./components/form.js\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction Kontakt() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                    children: \"Kontakt | Lenka Design\"\n                }, void 0, false, {\n                    fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/pages/kontakt.js\",\n                    lineNumber: 8,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/pages/kontakt.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: \"max-width\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                        children: \"Kontakt\"\n                    }, void 0, false, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/pages/kontakt.js\",\n                        lineNumber: 11,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                            children: \"Pište nebo volejte, r\\xe1da V\\xe1m pomohu a odpov\\xedm na Vaše ot\\xe1zky….\"\n                        }, void 0, false, {\n                            fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/pages/kontakt.js\",\n                            lineNumber: 13,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/pages/kontakt.js\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_form__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/pages/kontakt.js\",\n                        lineNumber: 17,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/jakubstadnik/Documents/GitHub/Lenka-design-next-web/pages/kontakt.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Kontakt);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9rb250YWt0LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBc0M7QUFDVDtBQUU3QixTQUFTRSxVQUFVO0lBQ2pCLHFCQUNFOzswQkFDRSw4REFBQ0Qsa0RBQUlBOzBCQUNILDRFQUFDRTs4QkFBTTs7Ozs7Ozs7Ozs7MEJBRVQsOERBQUNDO2dCQUFLQyxXQUFVOztrQ0FDZCw4REFBQ0M7a0NBQUc7Ozs7OztrQ0FDSiw4REFBQ0M7a0NBQ0MsNEVBQUNDO3NDQUFPOzs7Ozs7Ozs7OztrQ0FJViw4REFBQ1Isd0RBQUlBOzs7Ozs7Ozs7Ozs7O0FBSWI7QUFFQSxpRUFBZUUsT0FBT0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL25leHRqcy1ibG9nLy4vcGFnZXMva29udGFrdC5qcz9iN2NjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBGb3JtIGZyb20gXCIuLi9jb21wb25lbnRzL2Zvcm1cIjtcbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcblxuZnVuY3Rpb24gS29udGFrdCgpIHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPEhlYWQ+XG4gICAgICAgIDx0aXRsZT5Lb250YWt0IHwgTGVua2EgRGVzaWduPC90aXRsZT5cbiAgICAgIDwvSGVhZD5cbiAgICAgIDxtYWluIGNsYXNzTmFtZT1cIm1heC13aWR0aFwiPlxuICAgICAgICA8aDE+S29udGFrdDwvaDE+XG4gICAgICAgIDxwPlxuICAgICAgICAgIDxzdHJvbmc+XG4gICAgICAgICAgICBQacWhdGUgbmVibyB2b2xlanRlLCByw6FkYSBWw6FtIHBvbW9odSBhIG9kcG92w61tIG5hIFZhxaFlIG90w6F6a3nigKYuXG4gICAgICAgICAgPC9zdHJvbmc+XG4gICAgICAgIDwvcD5cbiAgICAgICAgPEZvcm0gLz5cbiAgICAgIDwvbWFpbj5cbiAgICA8Lz5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgS29udGFrdDtcbiJdLCJuYW1lcyI6WyJGb3JtIiwiSGVhZCIsIktvbnRha3QiLCJ0aXRsZSIsIm1haW4iLCJjbGFzc05hbWUiLCJoMSIsInAiLCJzdHJvbmciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/kontakt.js\n");
-
-/***/ }),
-
-/***/ "@emailjs/browser":
-/*!***********************************!*\
-  !*** external "@emailjs/browser" ***!
-  \***********************************/
-/***/ ((module) => {
-
-module.exports = require("@emailjs/browser");
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 968:
 /***/ ((module) => {
 
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -80,7 +291,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/kontakt.js"));
+var __webpack_exports__ = (__webpack_exec__(2292));
 module.exports = __webpack_exports__;
 
 })();
