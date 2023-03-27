@@ -171,7 +171,23 @@ export default function Realizace() {
             </div>
           </section>
           <section className="gallery-web">
-            <ImageGallery title="Reference" render={web} />
+            <div className="sluzba max-width" key={web.title}>
+              <div className="sluzba-text-wrapper">
+                <h2 id={web.id} className="sluzba-title">
+                  {web.title}
+                </h2>
+              </div>
+              {web.map((item, index) => (
+                <a href={item.image} key={index} target="_blank">
+                  <img
+                    src={item.thumbnail}
+                    className="gallery-img"
+                    loading="lazy"
+                  />
+                </a>
+              ))}
+            </div>
+            {/* <ImageGallery title="Reference" render={web} /> */}
           </section>
         </article>
         <article id="tvorba-grafiky">

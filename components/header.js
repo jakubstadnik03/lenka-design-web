@@ -62,7 +62,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/blog2" className="nav-link" onClick={hamburgerToggle}>
+              <Link href="/blog" className="nav-link" onClick={hamburgerToggle}>
                 Blog
               </Link>
             </li>

@@ -1,5 +1,7 @@
 self.__NEXT_FONT_MANIFEST={
-  "pages": {},
+  "pages": {
+    "/webove-stranky": []
+  },
   "app": {},
   "appUsingSizeAdjust": false,
   "pagesUsingSizeAdjust": false

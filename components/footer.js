@@ -26,7 +26,10 @@ export default function Footer() {
             <h4>Užitečné</h4>
             <ul>
               <li>
-                <Link href="/poukaz">Dárkový poukaz</Link>
+                <Link href="/blog">Blog</Link>
+              </li>
+              <li>
+                <Link href="/ceník">Ceník</Link>
               </li>
               <li>
                 <Link href="/reference">Reference</Link>
