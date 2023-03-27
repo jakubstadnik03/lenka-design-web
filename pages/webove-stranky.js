@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect, useState, React } from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import SluzbyNav from "../components/sluzbyNav";
@@ -6,6 +7,10 @@ import webData from "../data/webData.json";
 import ImageGallery from "../components/galleryImg";
 
 export default function Realizace() {
+  // window.addEventListener("load", function (e) {
+  //   window.dispatchEvent(new Event("resize"));
+  // });
+
   const slideImage = [
     {
       url: "img/web/laptop_mockup1.png",
