@@ -74,6 +74,9 @@ main {
 
   width: 200px;
 }
+a{
+  color: inherit;
+}
 .max-width {
   max-width: 1490px;
   margin-left: auto;
@@ -94,6 +97,8 @@ main {
 @media only screen and (min-width:920px) {
   h1 {
       font-size: 60px;
+      margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   h2 {
@@ -116,8 +121,20 @@ html {
   letter-spacing: 1px;
   font-weight: bold;
 }
+.button-rounded{
+  padding: 10px 20px;
+  border: solid 2px var(--red);
+  border-radius: 20px;
+  transition: .25s ease-in-out;
+  font-weight: bold;
+  margin: 10px;
+}
 .button:hover{
   cursor: pointer;
+}
+.button-rounded:hover{
+  background-color: var(--red);
+  color: white;
 }
 .text-block p {
   padding: 5px;

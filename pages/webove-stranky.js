@@ -1,14 +1,12 @@
-import Footer from "./components/footer";
-import Header from "./components/header";
 import Head from "next/head";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import SluzbyNav from "./components/sluzbyNav";
-import webData from "./data/webData.json";
-import ImageGallery from "./components/galleryImg";
+import SluzbyNav from "../components/sluzbyNav";
+import webData from "../data/webData.json";
+import ImageGallery from "../components/galleryImg";
 
 export default function Realizace() {
-  const slideImages = [
+  const slideImage = [
     {
       url: "img/web/laptop_mockup1.png",
     },
@@ -42,7 +40,6 @@ export default function Realizace() {
       <Head>
         <title>Tvorba webu | Lenka Design</title>
       </Head>
-      <Header />
       <main className="max-width">
         <div className="herowb">
           <div className="herowb-text">
@@ -61,7 +58,7 @@ export default function Realizace() {
           </div>
           <div className="slide-container slide-small">
             <Slide autoplay={true} duration={4000}>
-              {slideImages.map((slideImage, index) => (
+              {slideImage.map((slideImage, index) => (
                 <div className="each-slide" key={index}>
                   <div
                     className="slide"
@@ -78,17 +75,17 @@ export default function Realizace() {
           <div className="sluzby scroll sluzby-wrapper sluzby-second">
             <SluzbyNav
               title="Tvorba webu"
-              link="tvorba-webu"
+              link="#tvorba-webu"
               img="img/web/web.svg"
             />
             <SluzbyNav
               title="Tvorba grafiky"
-              link="tvorba-grafiky"
+              link="#tvorba-grafiky"
               img="img/web/grafika.svg"
             />
             <SluzbyNav
               title="Fotografování"
-              link="fotografovani"
+              link="#fotografovani"
               img="img/web/foto.svg"
             />
           </div>
@@ -215,7 +212,6 @@ export default function Realizace() {
           </section>
         </article>
       </main>
-      <Footer />
     </>
   );
 }

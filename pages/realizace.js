@@ -1,8 +1,6 @@
-import Footer from "./components/footer";
-import ImageGallery from "./components/galleryImg";
-import SluzbyNav from "./components/sluzbyNav";
-import Header from "./components/header";
-import RealizaceData from "./data/realizace.json";
+import ImageGallery from "../components/galleryImg";
+import SluzbyNav from "../components/sluzbyNav";
+import RealizaceData from "../data/realizace.json";
 
 import Head from "next/head";
 
@@ -48,8 +46,6 @@ export default function realizace() {
       <Head>
         <title>Realizace interiéru | Lenka Design</title>
       </Head>
-      <Header />
-
       <main>
         <div className="max-width">
           <h1>Realizace</h1>
@@ -95,7 +91,6 @@ export default function realizace() {
           render={nabytekNaMiru}
         />
       </main>
-      <Footer />
     </>
   );
 }

@@ -1,6 +1,4 @@
-import Footer from "./components/footer";
-import Header from "./components/header";
-import ReferenceComponent from "./components/ReferenceComponent";
+import ReferenceComponent from "../components/ReferenceComponent";
 import Head from "next/head";
 
 function Reference() {
@@ -9,7 +7,6 @@ function Reference() {
       <Head>
         <title>Reference od klientů | Lenka Design</title>
       </Head>
-      <Header />
       <main>
         <div className="max-width">
           <h1>Reference / Média</h1>
@@ -114,7 +111,6 @@ function Reference() {
           />
         </div>
       </main>
-      <Footer />
     </>
   );
 }

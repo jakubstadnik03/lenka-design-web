@@ -1,8 +1,6 @@
-import Footer from "./components/footer";
-import Header from "./components/header";
-import SluzbyNav from "./components/sluzbyNav";
-import ImageGallery from "./components/sluzbyImg";
-import sluzbyData from "./data/sluzbyData.json";
+import SluzbyNav from "../components/sluzbyNav";
+import ImageGallery from "../components/sluzbyImg";
+import sluzbyData from "../data/sluzbyData.json";
 import Head from "next/head";
 
 export default function naseSluzby() {
@@ -26,7 +24,6 @@ export default function naseSluzby() {
       <Head>
         <title>Seznam poskytovaných služeb | Lenka Design</title>
       </Head>
-      <Header />
       <main>
         <div className="sluzby scroll sluzby-wrapper sluzby-second">
           <SluzbyNav
@@ -86,7 +83,6 @@ export default function naseSluzby() {
           render={konzultace}
         />
       </main>
-      <Footer />
     </>
   );
 }

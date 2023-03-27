@@ -1,5 +1,3 @@
-import Footer from "./components/footer";
-import Header from "./components/header";
 import Head from "next/head";
 
 export default function Cenik() {
@@ -12,7 +10,6 @@ export default function Cenik() {
           content="S každým klientem prodiskutuji jeho požadavky a následně předložím cenovou nabídku"
         />
       </Head>
-      <Header />
       <main className="cenik">
         <div className="max-width text-block">
           <h1>Ceník služeb interiérového designu</h1>
@@ -189,7 +186,6 @@ export default function Cenik() {
           </div>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

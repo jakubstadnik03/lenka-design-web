@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Footer from "./components/footer";
-import Header from "./components/header";
 function Konzultace() {
   return (
     <>
       <Head>
         <title>Konzultace | Lenka Design</title>
       </Head>
-      <Header />
       <div className="max-width text-block types">
         <h1>Konzultace</h1>
         <h2>Co Vám mohu nabídnout?</h2>
@@ -64,8 +61,6 @@ function Konzultace() {
           případně zrealizovat.
         </p>
       </div>
-
-      <Footer />
     </>
   );
 }

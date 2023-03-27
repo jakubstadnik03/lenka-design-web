@@ -1,8 +1,6 @@
-import Footer from "./components/footer";
-import ImageGallery from "./components/galleryImg";
-import SluzbyNav from "./components/sluzbyNav";
-import Header from "./components/header";
-import VizualizaceData from "./data/Vizualizace.json";
+import ImageGallery from "../components/galleryImg";
+import SluzbyNav from "../components/sluzbyNav";
+import VizualizaceData from "../data/Vizualizace.json";
 import Head from "next/head";
 
 export default function realizace() {
@@ -35,7 +33,6 @@ export default function realizace() {
       <Head>
         <title>Vizualizace interiéru | Lenka Design</title>
       </Head>
-      <Header />
       <main>
         <div className="max-width">
           <h1>Vizualizace</h1>
@@ -69,7 +66,6 @@ export default function realizace() {
         <ImageGallery title="Koupelny" id="koupelny" render={koupelny} />
         <ImageGallery title="Wellness" id="wellness" render={wellness} />
       </main>
-      <Footer />
     </>
   );
 }

@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Footer from "./components/footer";
-import Header from "./components/header";
 function BytInterier() {
   return (
     <>
       <Head>
         <title>Návrh bytových interiérů - Liberec a okolí | Lenka Design</title>
       </Head>
-      <Header />
       <div className="max-width types">
         <h1>Návrh bytových interiérů - Liberec a okolí</h1>
         <h2>Co Vám mohu nabídnout?</h2>
@@ -58,7 +55,6 @@ function BytInterier() {
           případně doporučení realizační firmy.
         </p>
       </div>
-      <Footer />
     </>
   );
 }

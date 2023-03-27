@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/nase-sluzby": "pages/nase-sluzby.js",
+  "/blog": "pages/blog.js",
   "/": "pages/index.js",
-  "/vizualizace": "pages/vizualizace.js",
-  "/realizace": "pages/realizace.js"
+  "/posts/[slug]": "pages/posts/[slug].js"
 }

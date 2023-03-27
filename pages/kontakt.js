@@ -1,6 +1,4 @@
-import Form from "./components/form";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import Form from "../components/form";
 import Head from "next/head";
 
 function Kontakt() {
@@ -9,7 +7,6 @@ function Kontakt() {
       <Head>
         <title>Kontakt | Lenka Design</title>
       </Head>
-      <Header />
       <main className="max-width">
         <h1>Kontakt</h1>
         <p>
@@ -19,7 +16,6 @@ function Kontakt() {
         </p>
         <Form />
       </main>
-      <Footer />
     </>
   );
 }

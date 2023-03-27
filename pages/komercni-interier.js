@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Footer from "./components/footer";
-import Header from "./components/header";
 export default function KomercniInterier() {
   return (
     <>
@@ -9,7 +7,6 @@ export default function KomercniInterier() {
           Návrh komerčních interiérů - Liberec a okolí | Lenka Design
         </title>
       </Head>
-      <Header />
       <div className="max-width text-block types">
         <h1>Návrh komerčních interiérů - Liberec a okolí</h1>
         <h2>Co Vám mohu nabídnout?</h2>
@@ -42,7 +39,6 @@ export default function KomercniInterier() {
           do zaměstnání, kde tráví spoustu času chodil rád😊
         </p>
       </div>
-      <Footer />
     </>
   );
 }

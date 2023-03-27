@@ -1,10 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
-import Footer from "./components/footer";
-import Header from "./components/header";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import SluzbyNav from "./components/sluzbyNav";
+import SluzbyNav from "../components/sluzbyNav";
 
 export default function Home() {
   const slideImages = [
@@ -32,7 +30,6 @@ export default function Home() {
           Návrh interiéru Liberec, interiérový design | Lenka Design
         </title>
       </Head>
-      <Header />
       <main>
         <section className="hero">
           <div className="hero-text">
@@ -145,7 +142,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
 }

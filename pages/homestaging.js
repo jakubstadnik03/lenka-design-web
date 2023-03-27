@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Footer from "./components/footer";
-import Header from "./components/header";
 function Homestaging() {
   return (
     <>
       <Head>
         <title>Homestaging | Lenka Design</title>
       </Head>
-      <Header />
       <div className=" max-width text-block types">
         <h1>Homestaging - Liberec</h1>
         <h2>Co Vám mohu nabídnout?</h2>
@@ -46,8 +43,6 @@ function Homestaging() {
         </p>
         <p>Připravím Vám nemovitost, kterou bude chtít každý!</p>
       </div>
-
-      <Footer />
     </>
   );
 }
